@@ -14,16 +14,16 @@ The program will create and hold D&D characters for the user in order for use du
 - The user will be able to make multiple choices in order to get certain out comes whether it’s to delete a character, create a new one, add an item, etc. through a prompt asking from a list on the user to pick. 
 
 ## Challenges
-- I will need to research file types to make sure Json is the best course of action 
-- Potentially want to implement a way to add items how to do that cleanly.
-- How to import images into the Json file so if people create an image of their character importation is possible 
+- Providing enough choices to incorporate the full scope of abilities I want the holder to have, with the holder running smoothly without bugs.
+- Potentially want to implement a way to add items how to do that cleanly, without causing bugs or overcomplicate stats.
+- How to import images into the Json file so if people create an image of their character importation is possible, depending on the size of the image and making it look visual good.
 
 ## Outcomes
 Ideal Outcome:
-- That players can create character a view in a seperate file with the image they imported, items are showns with stats, and backstory included. 
+- That players can create character a view in a seperate file with the image they imported, items are showns with stats, and backstory included. with the choices of all name, race, stats, items, health, deletion, editing, etc.
 
 Minimal Viable Outcome:
-- Holds the characters with their name, level, stats, and race. Also Appears in Json file that allows people to still use the holder at a level of usefulness.
+- Holds the characters with their name, level, stats, and race. Also Appears in Json file that allows people to still use the holder at a level of usefulness. with at least the choices of stats, name, race, health, lastly deletion 
 ## Milestones
 
 - Week 1
