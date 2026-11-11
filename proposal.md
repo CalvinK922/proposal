@@ -8,11 +8,10 @@ The program will create and hold D&D characters for the user in order for use du
 
 ## Features
 - Creates D&D character
-	- Will role stats, hold character name, level, race, and allow for self stat import.
+	- Will role stats, hold character name, level, race, and allow for self stat import. this happens through a prompt and a assort of question asked like whether they want randomized stats or to self import them
 - Holder into a file
-	- The program will record the information from the previous function into a json file so player has it for later use
-- The holder itself 
-	- Holds all the information with the option to delete the character 
+	- The program will record the information from the previous function into a json file so player has it for later use. the holder is a a list of things the user themself adds to be later transferred to a file for either later viewing or further editing.
+- The user will be able to make multiple choices in order to get certain out comes whether it’s to delete a character, create a new one, add an item, etc. through a prompt asking from a list on the user to pick. 
 
 ## Challenges
 - I will need to research file types to make sure Json is the best course of action 
@@ -28,14 +27,12 @@ Minimal Viable Outcome:
 ## Milestones
 
 - Week 1
-  1. Create the character creator function 
-  2. Potetially the item creator/importation 
+  1. Create the character creator function, adding the stats, items, modifiers applied, health.
+  2. Potetially the item creator/importation, creates items, holds backstory, flavor text
 
 - Week 2
-  1. character holder 
-  2. Item/ armor holder
+  1. character holder, creates the list for each component and readies them for transfer to file type, also holds the ability to delete things within the holder.
+  2. Item/ armor holder, creates the list for items with capabilities with edits and durability.
 
 - Week N (Final)
-  1. Character holder in json file or different file 
-  2. items also in json file or different file 
-  3. import images feature and backstory
+  1. Creates the choices sequence for the player to be able to interact, with different options that make sense example asking the player the name of character they want to edit or delete.
